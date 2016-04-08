@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+  <head>
+    <title>Shifumi</title>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+    <link rel="stylesheet" href="Shifumi.css">
+  </head>
+  <body onload="chrono();">
+     <!-- le contenu -->
+     <h1>Shifumi</h1>
+  <p class="chrono">
+
+  </p>
+  <h2></h2>
+  <p class="mespoint">
+    Vous avez 0 point.
+  </p>
+  <p class="pointordinateur">
+    L'ordinateur a 0 point.
+  </p>
+
+  <div class="plateau">
+
+
+    <div class="image">
+        <h3>Choisie une carte</h3>
+        <div class="choixdescarte">
+          <div class="carte">
+            <img class="choix" src="img/pierre.png" onclick = "choix(this.src),tirage(),compare(0)" alt="" />
+          </div>
+          <div class="carte">
+            <img src="img/feuille.png" onclick = "choix(this.src),tirage(),compare(1)" alt="" />
+          </div>
+          <div class="carte">
+            <img src="img/ciseaux.png" onclick = "choix(this.src),tirage(),compare(2)" alt="" />
+          </div>
+       </div>
+
+    </div>
+
+    <div class="fight">
+      <h4>Votre Carte</h4>
+      <div class="macarte">
+        <img class="cartechoisie taillecarte"src="" alt="" />
+      </div>
+      <h4 class="position">Vs</h4>
+      <div class="sacarte">
+        <img class="carteordinateur taillecarte" src="" alt="" />
+      </div>
+      <h4>Carte de l'ordinateur</h4>
+    </div>
+
+    <div class="image">
+        <h3>Carte de l'ordinateur</h3>
+
+          <div class="carte">
+            <img src="img/pierre.png" alt="" />
+          </div>
+          <div class="carte">
+            <img src="img/feuille.png" alt="" />
+          </div>
+          <div class="carte">
+            <img src="img/ciseaux.png" alt="" />
+          </div>
+       </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="Shifumi.js"></script>
+
+  </body>
+</html>

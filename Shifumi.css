@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url('img/beton.jpg');
+}
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.plateau{
+display: flex;
+background: url('img/plateau.jpg');
+
+}
+
+.image{
+  width: 200px;
+  height: 400px;
+
+}
+
+.carte{
+  width: 75px;
+  height: 100px;
+  margin-left: 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.carte img{
+  width: 75px;
+  height: 100px;
+  display: block;
+}
+
+h3{
+  text-align: center;
+}
+
+.fight{
+
+  display: flex;
+  width: 1000px;
+  height: 400px;
+
+}
+
+.macarte {
+  margin-top: 50px;
+  width: 150px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.sacarte {
+  margin-top: 50px;
+  width: 150px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.taillecarte{
+  width: 150px;
+  height: 200px;
+
+
+
+}
+
+
+h4{
+  margin: 20px 50px;
+}
+
+.position{
+  width: 150px;
+  text-align: center;
+
+}
